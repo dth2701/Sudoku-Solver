@@ -1,5 +1,9 @@
 # Sudoku-Solver
 
-Learning Goals: The purpose of this assignment is to get comfortable writing C programs, gaining the experience of working in a non-object oriented language. By the end of this assignment you should be comfortable with arrays, command-line arguments, file I/O, pointers, and structures in C.
+Learning Goals: Writing C programs and gaining the experience of working in a non-object oriented language. By the end of this project, you should be comfortable with arrays, command-line arguments, file I/O, pointers, and structures in C.
 
-Specifications: A magic square is a square matrix of size n x n with positive numbers from 1… n2 arranged such that the sum of the numbers in any horizontal, vertical, or diagonal (primary and secondary) line is always the same number. You can read more about it in this reference (Links to an external site.). For this assignment you will be writing two programs, verify_magic.c and generate_magic.c to verify and generate a magic square respectively. Both the programs will require you to work with dynamically allocated 2D arrays. The caveat in this assignment is that while accessing the 2D array of the magic square you are not allowed to use square brackets, like array[i][j] that you would normally use to index an array. Instead you are required to use pointer arithmetic and dereferences to traverse and index the 2D array. This is so that you can get comfortable with using pointers. Using square brackets to index the 2D square will result in a deduction of points.
+checkboard.c processes a text file that contains a current puzzle state, represented as a 2D grid of digits 1 to n, where n is the size of the board and is an integer in the range 1 to 9.
+Read more about magic squares in https://en.wikipedia.org/wiki/Magic_squareLinks to an external site.
+
+myMagicSquare.c generates a magic square of a specified size and writes it to an output file by using Siamese method.
+Read more about https://en.wikipedia.org/wiki/Siamese_method.
